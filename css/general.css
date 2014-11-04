@@ -1,3 +1,9 @@
-.floatleft {   
+.nav {   
     float:left;
+    margin: 1em 1em;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
+    width: 25%;
 }
+
