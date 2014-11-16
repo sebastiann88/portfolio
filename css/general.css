@@ -146,10 +146,6 @@ p {
   max-width: 50em;
 }
 
-.masthead {
-  background-color: #8a8d9e;
-}
-
 .title {
   margin: 0;
   padding: 1em 0;
@@ -158,9 +154,11 @@ p {
   text-align: center;
 }
 
+
 .chart {
     position: relative;
 }
+
 
 .chart__item,
 .chart__item:link,
@@ -185,19 +183,18 @@ p {
 }
 
 .chart__label {
-  bottom: -1.7em;
   position: absolute;
   width: 100%;
 
   text-align: center;
 }
 
-
 .chart__bar-wrap {
   bottom: 0;
   position: absolute;
   width: 100%;
 }
+
 
 .chart__bar,
 .chart__bar:link,
@@ -208,10 +205,6 @@ p {
   right: 0;
   top: 0;
         
-    transition: 
-        background-color 1000ms linear,
-    ;
-
 }
 
 
@@ -219,9 +212,8 @@ p {
 .chart__bar:focus,
 .chart__bar:active {
     background-color: gray;
+    transition: all 250ms linear;
 }
-
-
 
 .chart__count {
   display: inline-block;
@@ -231,27 +223,23 @@ p {
   position: absolute;
     top: 7em;
 
-  width: 4.6em;
-  z-index: 1;
+
     transition: all 250ms linear;
-  text-align: center;
+    text-align: center;
     font-family: 'Raleway', sans-serif;
     color: rgba(255, 255, 255, 0);
+    
 }
 
 .chart__count::after {
-  content: " ";
   height: 0;
   left: -8px;
-  margin-left: 50%;
   position: absolute;
   width: 0;
-    opacity: 1.00;
     transition: all 250ms linear;
 }
 
 .chart__bar-wrap:hover .chart__count {
-    opacity: 1;
     top: 4em;
     color: rgba(255, 255, 255, 1.00);
 }
