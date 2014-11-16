@@ -36,9 +36,11 @@ body {
 .img-flex {
   display: block;
   width: 100%;
-    padding: 0.2em;
 }
 
+.padding {
+    padding: 0.2em; 
+}
 /*
 .nav {   
     float:left;
@@ -148,7 +150,6 @@ p {
 
 .title {
   margin: 0;
-  padding: 1em 0;
 
   font-weight: normal;
   text-align: center;
@@ -157,7 +158,6 @@ p {
 
 .chart {
     position: relative;
-    padding: 0.2em;
 }
 
 
@@ -186,7 +186,6 @@ p {
 .chart__label {
   position: absolute;
   width: 100%;
-    padding: 0.2em;
 
   text-align: center;
 }
@@ -221,7 +220,6 @@ p {
   display: inline-block;
   left: -2.3em;
   margin: 0 0 0 50%;
-  padding: 0.5em;
   position: absolute;
     top: 7em;
 
