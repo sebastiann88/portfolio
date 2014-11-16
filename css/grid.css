@@ -216,10 +216,10 @@
   display: inline-block;
   visibility: visible;
 }
-
+    
 }
     
-@media only screen and (min-width: 100em) {
+@media only screen and (min-width: 70em) {
 
 .unit-l-hidden {
   display: none;
