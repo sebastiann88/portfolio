@@ -26,6 +26,11 @@ body {
 font-family: 'Raleway', sans-serif;
 }
 
+img{
+    display:block;
+    width:100%;
+}
+
 .ir {
   overflow: hidden;
 
@@ -106,6 +111,7 @@ p {
     font-family: 'Raleway', sans-serif;   
     color: white;
     font-size: 1.5em;
+    text-align:center;
 }
 
 .founder {
@@ -309,3 +315,42 @@ p {
     padding-bottom: 1em;
 }
 
+/*portfolio*/
+
+figure{
+    margin:0;
+    padding:0;
+}
+
+@media only screen and (min-width: 55em) {
+
+    .card{
+        margin:0;
+        position:relative;
+        overflow:hidden;
+        
+        animation: slide-up 2000ms linear;
+        -ms-animation: slide-up 2000ms linear;
+        -moz-animation: slide-up 2000ms linear;
+        -o-animation: slide-up 2000ms linear;
+        -webkit-animation: slide-up 2000ms linear;
+    }
+    
+    .card__text{
+        background-color: rgba(0,0,0,.50);
+        background:cover;
+        position:absolute;
+        bottom:-4rem;
+        width: 95%;
+        padding: 1em;
+        opacity: 0;
+        transition: all 250ms linear;
+    }
+    
+    .card:hover .card__text {
+        opacity:1;
+        bottom:0;
+    }
+    
+}   
+    
