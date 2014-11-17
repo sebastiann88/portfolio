@@ -90,6 +90,8 @@ h1 {
 
 h2 {
     font-family: 'Raleway', sans-serif;
+    padding: 0.2em;
+    margin: 0em;
 }
 
 h3 {
@@ -301,5 +303,9 @@ p {
 .media-img-stacked {
     float: none;
     margin: 0;
+}
+
+.padding-bottom {
+    padding-bottom: 1em;
 }
 
