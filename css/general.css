@@ -84,6 +84,8 @@ font-family: 'Raleway', sans-serif;
 
 h1 {
     font-family: 'Raleway', sans-serif;
+    padding: 0em;
+    margin: 0em;
 }
 
 h2 {
