@@ -53,6 +53,11 @@ img{
     margin: 0 auto;
 }
 
+.wrapper2 {
+    max-width: 80em;
+    margin: 0 auto;
+}
+
 .padding {
     padding: 0em; 
 }
