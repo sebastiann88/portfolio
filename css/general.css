@@ -51,16 +51,6 @@ img{
 .padding {
     padding: 0em; 
 }
-/*
-.nav {   
-    float:left;
-    margin: 1em 1em;
-    font-size: 1.2em;
-    font-family: 'Raleway', sans-serif;
-    width: 22%;
-}
-
-*/
 
 .nav-top {
     clear: both; /* forces content content to be placed after a float */
@@ -162,107 +152,6 @@ p {
   clear: both;
 }
 
-.wrapper {
-  margin: 0 auto;
-  max-width: 50em;
-}
-
-.title {
-  margin: 0;
-
-  font-weight: normal;
-  text-align: center;
-}
-
-
-.chart {
-    position: relative;
-}
-
-
-.chart__item,
-.chart__item:link,
-.chart__item:visited {
-  float: left;
-  position: relative;
-
-}
-
-.chart__item:hover,
-.chart__item:focus,
-.chart__item:active {
-    background-color: gray;
-    
-}
-
-.chart__link,
-.chart__link:link,
-.chart__link:visited {
-  display: block;
-  color: black;
-}
-
-.chart__label {
-  position: absolute;
-  width: 100%;
-
-  text-align: center;
-}
-
-.chart__bar-wrap {
-  bottom: 0;
-  position: absolute;
-  width: 100%;
-}
-
-
-.chart__bar,
-.chart__bar:link,
-.chart__bar:visited {
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-        
-}
-
-
-.chart__bar:hover,
-.chart__bar:focus,
-.chart__bar:active {
-    background-color: gray;
-    transition: all 250ms linear;
-}
-
-.chart__count {
-  display: inline-block;
-  left: -2.3em;
-  margin: 0 0 0 50%;
-  position: absolute;
-    top: 7em;
-
-
-    transition: all 250ms linear;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    color: rgba(255, 255, 255, 0);
-    
-}
-
-.chart__count::after {
-  height: 0;
-  left: -8px;
-  position: absolute;
-  width: 0;
-    transition: all 250ms linear;
-}
-
-.chart__bar-wrap:hover .chart__count {
-    top: 4em;
-    color: rgba(255, 255, 255, 1.00);
-}
-
 .relative {
     position: relative;
 }
@@ -324,6 +213,11 @@ p {
 figure{
     margin:0;
     padding:0;
+}
+
+figcaption {
+    margin: 0;
+    padding: 0;
 }
 
 @media only screen and (min-width: 55em) {
