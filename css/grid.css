@@ -166,6 +166,8 @@
   visibility: visible;
 }
 
+}
+
 @media only screen and (min-width: 40em) {
 
 .unit-r-hidden {
@@ -855,4 +857,20 @@
   visibility: visible;
 }
 
+}
+
+.columns-s {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+}
+
+@media only screen and (min-width: 40em) {
+
+.columns-r {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+    
 }
