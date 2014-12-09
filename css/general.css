@@ -26,10 +26,6 @@ body {
 font-family: 'Raleway', sans-serif;
 }
 
-.type-margin {
- margin: 0.8em;   
-}
-
 a {
     text-decoration:none;
 }
@@ -37,6 +33,11 @@ a {
 img{
     display:block;
     width:100%;
+}
+
+footer {
+    padding: 2em;
+    color: white;
 }
 
 .white {
