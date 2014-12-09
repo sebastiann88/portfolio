@@ -22,8 +22,12 @@ html {
 
 body {
   margin: 0;
-  padding: 0.8em;
+  padding: 0em;
 font-family: 'Raleway', sans-serif;
+}
+
+.type-margin {
+ margin: 0.8em;   
 }
 
 a {

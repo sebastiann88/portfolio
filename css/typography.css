@@ -1,3 +1,12 @@
+/* 
+Colour:
+
+
+teal: #323d42
+
+*/
+
+
 h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 2em;
@@ -23,7 +32,7 @@ h4 {
 p {
     font-family: 'Raleway', sans-serif;
     font-size: 1em;
-    padding: 2em;
+    padding: 2em 0em;
 }
 
 .cover-names {
@@ -31,4 +40,14 @@ p {
     color: white;
     font-size: 1.2em;
     text-align:center;
+}
+
+footer {
+    background-color: #323d42;
+    margin: 0em;
+}
+
+.type-spacing {
+    margin: 2em;
+
 }
