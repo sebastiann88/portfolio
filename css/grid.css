@@ -874,3 +874,15 @@
 }
     
 }
+
+@media only screen and (min-width: 75em) {
+    
+.columns-l {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    left: 50%;
+    margin: 5em;
+}
+ 
+}
