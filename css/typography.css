@@ -66,11 +66,21 @@ footer {
     padding: 1em;
     margin: 0em;
     color: #ecefb3;
-    
+}
+
+.catchy-title-pages {
+    background-color: #ecefb3;
+    padding: 1em 1em 1em 1.5em;
+    margin: 0em;
+    color: #323d42;
 }
 
 .yellow {
  color: #ecefb3;   
+}
+
+.teal {
+    color: #323d42; 
 }
 
 .no-margin {
