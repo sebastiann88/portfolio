@@ -74,9 +74,18 @@ footer {
     padding: 0em; 
 }
 
+.logo-top {
+    clear: both; /* forces content content to be placed after a float */
+    font-family: 'Raleway', sans-serif;
+    background-color: #323d42;
+    margin: 0;
+    padding: 0;
+}
+
 .nav-top {
     clear: both; /* forces content content to be placed after a float */
     font-family: 'Raleway', sans-serif;
+    background-color: #323d42;
 }
 
 .nav-top ul {

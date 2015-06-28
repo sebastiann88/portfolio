@@ -59,8 +59,11 @@ footer {
     margin: 2em;
 }
 
-.logo-spacing {
-    margin: 1em;
+.logotype {
+    margin: 0em auto;
+    padding: 1.5em;
+    width: 20em;
+    
 }
 
 .catchy-title{
