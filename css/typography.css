@@ -91,3 +91,10 @@ footer {
 .no-margin {
     margin: 0em;
 }
+
+.welcome {
+    overflow: hidden;
+    padding: 0em;
+    margin: 1em 0em 0em 1em;
+    color: #323d42;
+}

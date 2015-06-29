@@ -963,7 +963,7 @@
     -webkit-column-count: 1; /* Chrome, Safari, Opera */
     -moz-column-count: 1; /* Firefox */
     column-count: 1;
-    margin: 1.5em;
+    margin: 1em 2em 2em 2em;
 }
 
 @media only screen and (min-width: 40em) {
@@ -972,7 +972,7 @@
     -webkit-column-count: 1; /* Chrome, Safari, Opera */
     -moz-column-count: 1; /* Firefox */
     column-count: 1;
-    margin: 2em;
+    margin: 1em 2em 2em 2em;
 }
     
 }
@@ -983,7 +983,7 @@
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
-    margin: 3em;
+    margin: 1em 2em 2em 2em;
 }
  
 }
