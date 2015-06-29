@@ -41,7 +41,16 @@ footer {
 }
 
 .border-bottom {
-    border-bottom: #ecefb3 solid 0.1em
+    border-bottom: #ecefb3 solid 0.1em;
+}
+
+.border-right {
+    border-right: #ecefb3 solid 0.05em;
+}
+
+.border-left-right {
+    border-left: #ecefb3 solid 0.05em;
+    border-right: #ecefb3 solid 0.05em;
 }
 
 .white {
