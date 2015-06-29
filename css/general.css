@@ -56,7 +56,6 @@ footer {
 
 
 .img-flex {
-  display: block;
   width: 100%;
 }
 
@@ -193,10 +192,10 @@ footer {
 .media-img {
     float: left;
     margin: 0 10px 0 0;
+    max-width: 19.2em;
 }
 
 .media-body {
-    overflow: hidden;
     overflow: hidden;
 }
 
