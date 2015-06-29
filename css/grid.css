@@ -185,6 +185,15 @@
   width: 100%;
 }
 
+.unit-r-1-2 {
+  width: 50.0000%;
+}
+
+.unit-offset-r-1-2 {
+  margin-left: 50.0000%;
+}
+
+
 .unit-offset-r-0 {
   margin-left: 0;
 }
@@ -586,7 +595,7 @@
 
 }
 
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: 90em) {
 
 .unit-l-hidden {
   display: none;
