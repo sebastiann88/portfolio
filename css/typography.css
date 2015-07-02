@@ -12,6 +12,7 @@ h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 2em;
     color: #323d42;
+    padding-left: 1em;
 }
 
 h2 {
@@ -100,5 +101,5 @@ footer {
 }
 
 .indent {
-    padding-left: 1em;
+    
 }
