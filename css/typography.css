@@ -98,3 +98,7 @@ footer {
     margin: 1em 0em 0em 1em;
     color: #323d42;
 }
+
+.indent {
+    padding-left: 1em;
+}
