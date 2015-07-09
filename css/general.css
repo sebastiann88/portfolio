@@ -68,6 +68,14 @@ footer {
   width: 100%;
 }
 
+.img-flex-80 {
+    width: 20em;   
+}
+
+.max-80 {
+    max-width: 45em;
+}
+
 .wrapper {
     max-width: 80em;
     margin: 0 auto;
