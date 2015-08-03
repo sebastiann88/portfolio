@@ -40,6 +40,10 @@ footer {
     color: white;
 }
 
+.border {
+    border: solid #ecefb3 1px;
+}
+
 .border-bottom {
     border-bottom: #ecefb3 solid 0.1em;
 }
@@ -73,7 +77,7 @@ footer {
 }
 
 .max-80 {
-    max-width: 45em;
+    max-width: 41em;
 }
 
 .wrapper {
