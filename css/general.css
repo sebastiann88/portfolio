@@ -67,13 +67,20 @@ footer {
   white-space: nowrap;
 }
 
+.center{
+    margin: auto 50%;
+}
 
 .img-flex {
   width: 100%;
 }
 
 .img-flex-80 {
-    width: 20em;   
+    width: 80%;   
+}
+
+.img-flex-70 {
+    width: 80%;
 }
 
 .max-80 {
