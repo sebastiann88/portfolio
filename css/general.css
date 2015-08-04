@@ -42,6 +42,8 @@ footer {
 
 .border {
     border: solid #ecefb3 1px;
+    padding: 0em;
+    margin: 0em;
 }
 
 .border-bottom {
@@ -73,6 +75,10 @@ footer {
 
 .img-flex {
   width: 100%;
+}
+
+img-flex-95 {
+    width: 95%;
 }
 
 .img-flex-80 {

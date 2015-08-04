@@ -104,6 +104,10 @@ footer {
     margin-top: 2em;
 }
 
+.margin-bottom {
+    margin-bottom: 2em;
+}
+
 .no-margin {
     margin: 0em;
 }
